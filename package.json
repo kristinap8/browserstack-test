@@ -12,6 +12,7 @@
   "scripts": {
     "test:huawei-p30": "wdio run ./wdio.huawei-p30.conf.js",
     "test:pixel3": "wdio run ./wdio.pixel3.conf.js",
+    "test:samsung-s10": "wdio run ./wdio.samsung-s10.conf.js",
     "report:generate": "npx allure generate reports/allure-results/ --clean -o reports/allure-report/",
     "report:open": "allure open reports/allure-report/"
   }
