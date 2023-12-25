@@ -1,10 +1,8 @@
-const dotenv = require('dotenv');
-
-dotenv.config();
+require('dotenv').config();
 
 exports.config = {
-  user: process.env.BROWSERSTACK_USERNAME || 'BROWSERSTACK_USERNAME',
-  key: process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACCESS_KEY',
+  user: process.env.BROWSERSTACK_USERNAME,
+  key: process.env.BROWSERSTACK_ACCESS_KEY,
 
   updateJob: false,
   specs: [
@@ -18,7 +16,7 @@ exports.config = {
     name: 'first_test',
     device: 'Google Pixel 3',
     os_version: "9.0",
-    app: process.env.BROWSERSTACK_APP_ID || 'bs://<hashed app-id>',
+    app: process.env.BROWSERSTACK_APP_ID,
     'browserstack.debug': true
   }],
   

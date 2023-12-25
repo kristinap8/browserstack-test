@@ -1,6 +1,4 @@
-const dotenv = require('dotenv');
-
-dotenv.config();
+require('dotenv').config();
 
 exports.config = {
   user: process.env.BROWSERSTACK_USERNAME,
