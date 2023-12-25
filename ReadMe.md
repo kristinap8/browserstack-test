@@ -1,5 +1,4 @@
 # Repo with test task for browserstack
-
 ## Task
 
 1.  Clone repo and install all dependencies.
