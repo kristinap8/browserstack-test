@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-1. [Summary of Repository](#summary-of-repo)
+1. [Summary of Repository](#summary-of-repository)
 2. [Requirements](#requirements)
 3. [Steps to Install](#steps-to-install)
 4. [Steps to Launch](#steps-to-launch)
-5. [Generate a Report](#create-a-report)
+5. [Generate a Report](#generate-a-report)
 
 ## Summary of Repository
 
